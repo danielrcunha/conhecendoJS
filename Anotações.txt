@@ -1,0 +1,30 @@
+01. abrir um terminal dentro do vscode: terminal >> new termial;
+02. Para usar o node dentro do termial aberto é só digitar: node
+03. Para limpar o terminal: ctrl+l
+04. Comando que identifica o tipo da variavel: typeof nomeVariavel
+05. Informando nome e recebendo o valor em JS:
+
+    <script>
+        var nome = window.prompt('Qual seu nome?')
+        window.alert('O nome informado foi '+ nome+'!')
+    </script>
+
+06. Convertendo número p/ String: String(n)
+07. Convertendo String p/ número: n.toString()
+08. Colhendo dados e informado na tela:
+
+    <script>
+       var num1 = Number(window.prompt('Informe num1:')) 
+       //var num2 = Number.parseInt(window.prompt('Informe num2:')) tb pode ser usado assim
+       var num2 = Number(window.prompt('Informe num2:')) 
+       var soma = num1+num2
+       //window.alert('A soma é '+ soma) 
+       window.alert(`A soma de ${num1}  +  ${num2} =  ${soma}`)
+    </script>
+
+09. Complemento:
+    s.length -- quandos caracteres a string tem
+    s.toUpperCase() //Tudo maiusculo
+    s.tolowerCase() //Tudo minusculo
+
+10.        
