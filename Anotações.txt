@@ -27,4 +27,26 @@
     s.toUpperCase() //Tudo maiusculo
     s.tolowerCase() //Tudo minusculo
 
-10.        
+10. Mostrando maisculas e minusculo:
+    <script>
+        var nome = window.prompt('Qual seu nome? ')
+        document.write(`Ola, ${nome}!. Seu nome tem ${nome.length} letras.<br>`)
+        document.writeln(`Seu nome em maiúsculo é ${nome.toUpperCase()}<br>`)
+        document.writeln(`Seu nome em minúsculo: ${nome.toLowerCase()}.`)
+    </script>       
+
+11.Operadores
+    ** elevado
+    % MOD
+
+    Relacionais
+5 == 5 :: 5 igual a 5
+5 === 5 :: 5 identico a 5
+
+!= diferente
+!== desigual
+
+LOGICOS:
+! Negação
+&& conjução (AND)
+|| disjunção (OR)     
